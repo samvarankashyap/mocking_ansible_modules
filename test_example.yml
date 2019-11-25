@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+  - name: Run example module with path var
+    example: 
+      path: /etc/default
